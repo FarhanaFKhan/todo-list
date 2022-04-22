@@ -1,17 +1,17 @@
-import React,{FC} from 'react';
-import './App.css';
-import Header from './components/Header';
-import Container from './components/Container';
+import React, { FC } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Container from "./components/Container";
 
 const App: FC = () => {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <div>
-        <Container/>
-      </div> 
+        <Container />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
