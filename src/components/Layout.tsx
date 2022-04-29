@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import Header from "./Header";
 import Container from "./Container";
 import { Grid, GridItem, Text } from "@chakra-ui/react";
+import InputForm from "./Form";
 
 const Layout: FC = () => {
   return (
@@ -15,7 +16,8 @@ const Layout: FC = () => {
         <Header />
       </GridItem>
       <GridItem rowSpan={2} colSpan={1} />
-      <Container />
+      {/* <Container /> */}
+      <InputForm />
     </Grid>
   );
 };

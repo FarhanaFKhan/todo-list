@@ -16,10 +16,7 @@ const Container = () => {
       setDeadline(Number(event.target.value));
     }
   }
-  const addTask = (
-    e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>
-  ): void => {
-    e.preventDefault();
+  const addTask = (): void => {
     const newTask = {
       taskName: task,
       deadline: deadline,
