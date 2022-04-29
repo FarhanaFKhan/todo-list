@@ -1,6 +1,9 @@
 import React from "react";
+
 interface ClickProps {
-  handleClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  handleClick: (
+    event: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>
+  ) => void;
 }
 
 const Button = (Props: ClickProps) => {

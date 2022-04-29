@@ -1,15 +1,11 @@
 import React, { FC } from "react";
 import "./App.css";
-import Header from "./components/Header";
-import Container from "./components/Container";
+import Layout from "./components/Layout";
 
 const App: FC = () => {
   return (
     <div className="App">
-      <Header />
-      <div>
-        <Container />
-      </div>
+      <Layout />
     </div>
   );
 };
