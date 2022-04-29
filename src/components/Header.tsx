@@ -14,6 +14,10 @@ import { Text } from "@chakra-ui/react";
 // };
 // export default Header;
 const Header = () => {
-  return <Text fontSize="3xl">Todo App</Text>;
+  return (
+    <Text color="white" fontSize="3xl">
+      Todo App
+    </Text>
+  );
 };
 export default Header;
